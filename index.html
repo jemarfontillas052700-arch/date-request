@@ -1,1 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A Special Date for Lian Tracy ❤️</title>
 
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+
+<!-- PAGE 1 -->
+<div class="container" id="page1">
+    <h1>🌸 Will you go on a date with me, Lian Tracy Sadsad? 💖</h1>
+
+    <p>
+        Life feels brighter with you, and I'd love to spend a special day together.
+    </p>
+
+    <button id="yesBtn">💗 Yes</button>
+    <button id="noBtn">🙈 No</button>
+</div>
+
+<!-- PAGE 2 -->
+<div class="container hidden" id="page2">
+
+<h1>💕 Let's Plan Our Date</h1>
+
+<input type="date" id="date">
+
+<select id="time">
+<option value="">Choose Time</option>
+<option>12:00 PM</option>
+<option>1:00 PM</option>
+<option>2:00 PM</option>
+<option>6:00 PM</option>
+<option>7:00 PM</option>
+<option>8:00 PM</option>
+</select>
+
+<select id="food">
+<option value="">Choose Food</option>
+<option>🍜 Ramen</option>
+<option>🍝 Pasta</option>
+<option>🍕 Pizza</option>
+<option>🍣 Sushi</option>
+<option>🍔 Burger</option>
+<option>☕ Coffee</option>
+</select>
+
+<button id="finishBtn">💖 Set Our Date</button>
+
+</div>
+
+<!-- PAGE 3 -->
+<div class="container hidden" id="page3">
+
+<h1>🎉 It's a Date! 💕</h1>
+
+<div class="result">
+
+<p><strong>📅 Date:</strong> <span id="resultDate"></span></p>
+
+<p><strong>🕒 Time:</strong> <span id="resultTime"></span></p>
+
+<p><strong>🍜 Food:</strong> <span id="resultFood"></span></p>
+
+<br>
+
+<p>
+Thank you for saying yes ❤️
+</p>
+
+<p>
+I can't wait to see you! 🌸
+</p>
+
+<p>
+— Kenji
+</p>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
